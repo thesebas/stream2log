@@ -1,0 +1,21 @@
+{
+  "name": "thesebas/stream2log",
+  "description": "",
+  "keywords": ["psr", "psr-3", "log"],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "thesebas",
+      "email": "thesebas@thesebas.net"
+    }
+  ],
+  "require": {
+    "psr/log": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "thesebas\\stream2log\\": "src/"
+    }
+  }
+}
